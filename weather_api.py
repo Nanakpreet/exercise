@@ -6,7 +6,7 @@ user_api = os.environ["weather_key"]
 
 
 print("..........Current Weather Status of New Zealand's four major airports..........\n")
-location = ["AKL","CHC","WLG","ZQN"]
+location = ["AKL","CHC","WLG","ZQN"]  #using the IATA three letter geocode of Airport to access the weather data via api
 for i in location:
 
     #get the api_link from https://www.weatherapi.com/api-explorer.aspx#current
